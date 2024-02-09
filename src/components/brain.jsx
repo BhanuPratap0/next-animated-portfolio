@@ -10,7 +10,7 @@ const Brain = ({ scrollYProgress }) => {
   const rotatesBackward1 = useTransform(scrollYProgress, [0, 1], [0, -360]);
   const rotatesBackward2 = useTransform(scrollYProgress, [0, 1], [0, -180]);
   const rotatesBackward3 = useTransform(scrollYProgress, [0, 1], [0, -90]);
-   const rotatesBackward4 = useTransform(scrollYProgress, [0, 1], [0, -45]);
+  const rotatesBackward4 = useTransform(scrollYProgress, [0, 1], [0, -45]);
   return (
     <div className="w-full h-full">
       <svg width="100%" height="100%">
