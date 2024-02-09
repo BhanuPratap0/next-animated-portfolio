@@ -23,16 +23,21 @@ const AboutPage = () => {
       {/* CONTAINER */}
       <div className='h-full overflow-y-scroll no-scrollbar lg:flex' ref={containerRef}>
         {/* TEXT CONTAINER */}
-        <div className='p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2' >
+        <div className='p-4 sm:p-8 md:p-12 lg:p-20 xl:p-30 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-20 lg:w-2/3 lg:pr-0 xl:w-1/2' >
           {/* BIOGRAPHY */}
           <div className='flex flex-col gap-12 justify-center' >
             {/* BIOGRAPHY TITLE */}
             <h1 className='font-bold text-2xl' >BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
-            <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maxime excepturi quos? Dolorem atque harum libero ipsa in velit, aspernatur a fugit iste totam, quisquam consequatur! Doloribus, incidunt. Accusamus, dicta.</p>
+            <p className='text-lg'><b>I'm Bhanu</b><br />
+              Full Stack Developer<br />
+
+              I am a Full-Stack developer based in Ajmer, India. I am an Information Technology undergraduate from Engineering College Ajmer. I am very passionate about improving my coding skills & developing applications & websites.
+            </p>
             {/* BIOGRAPHY QUOTE */}
             <span className='italic'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Email: singh28986@gmail.com<br/>
+              Place: Ajmer, Rajasthan, India - 305001
             </span>
             {/* BIOGRAPHY SIGN SVG */}
             <div className='self-end' >
@@ -76,7 +81,7 @@ const AboutPage = () => {
               SKILLS</motion.h1>
             {/* SKILL LIST */}
             <motion.div initial={{ x: "-300px" }}
-              animate={isSkillRefInView ? { x: 0 } : {}}              
+              animate={isSkillRefInView ? { x: 0 } : {}}
               transition={{ delay: 0.2 }}
               className='flex gap-4 flex-wrap'
             >
@@ -121,7 +126,7 @@ const AboutPage = () => {
             <motion.h1
               initial={{ x: "-300px" }}
               animate={isExperienceRefInView ? { x: "0" } : {}}
-              
+
               className='font-bold text-2xl' >EXPERIENCE</motion.h1>
             {/* EXPERIENCE LIST */}
             <motion.div className=''
