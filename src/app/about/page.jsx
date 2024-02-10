@@ -36,7 +36,7 @@ const AboutPage = () => {
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className='italic'>
-              Email: singh28986@gmail.com<br/>
+              Email: singh28986@gmail.com<br />
               Place: Ajmer, Rajasthan, India - 305001
             </span>
             {/* BIOGRAPHY SIGN SVG */}
@@ -138,13 +138,13 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className='w-1/3'>
                   {/* JOB TITLE */}
-                  <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Senior JavaScript Engineer</div>
+                  <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Full Stack Web Developer and R & D Intern</div>
                   {/* JOB DESC */}
-                  <div className='p-3 text-sm italic'>Senior JavaScript Engineer</div>
+                  <div className='p-3 text-sm italic'>Developed educational platform and researched autism for autistic children's benefit.</div>
                   {/* JOB DATE */}
-                  <div className='p-3 text-red-400 text-sm font-semibold'>2024- Present</div>
+                  <div className='p-3 text-red-400 text-sm font-semibold'>June 2023 - Aug 2023</div>
                   {/* JOB COMPANY */}
-                  <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Apple</div>
+                  <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>MNIT Jaipur</div>
                 </div>
                 {/* CENTER */}
                 <div className='w-1/6 flex justify-center'>
@@ -160,26 +160,25 @@ const AboutPage = () => {
               {/* EXPERIENCE LIST ITEM 2*/}
               <div className='flex justify-between h-50 -mb-12' >
                 {/* LEFT */}
-                <div className='w-1/3'>
-                </div>
+                <div className='w-1/3'></div>
                 {/* CENTER */}
                 <div className='w-1/6 flex justify-center'>
                   {/* LINE */}
-                  <div className='w-1 h-full bg-gray-600 rounded relative'>
+                  <div className='h-100 w-1 bg-gray-600 rounded relative'>
                     {/* CIRCLE */}
                     <div className='absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2'></div>
                   </div>
                 </div>
                 {/* RIGHT */}
-                <div className='w-1/3 h-full'>
+                <div className='w-1/3'>
                   {/* JOB TITLE */}
-                  <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Senior JavaScript Engineer</div>
+                  <div className='bg-white p-3 font-semibold rounded-b-lg rounded-e-lg'>Hackathon: All India Forensic Hackathon</div>
                   {/* JOB DESC */}
-                  <div className='p-3 text-sm italic'>Senior JavaScript Engineer</div>
+                  <div className='p-3 text-sm italic'>Finalist in top 15 teams for final round.</div>
                   {/* JOB DATE */}
-                  <div className='p-3 text-red-400 text-sm font-semibold'>2024- Present</div>
+                  <div className='p-3 text-red-400 text-sm font-semibold'>Feb 2023</div>
                   {/* JOB COMPANY */}
-                  <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Apple</div>
+                  <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>NFSU Gandhinagar</div>
                 </div>
               </div>
               {/* EXPERIENCE LIST ITEM 3*/}
@@ -187,13 +186,61 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className='w-1/3'>
                   {/* JOB TITLE */}
-                  <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Senior JavaScript Engineer</div>
+                  <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Full Stack Web Developer</div>
                   {/* JOB DESC */}
-                  <div className='p-3 text-sm italic'>Senior JavaScript Engineer</div>
+                  <div className='p-3 text-sm italic'>Trainee at company, gained valuable knowledge working on significant projects.</div>
                   {/* JOB DATE */}
-                  <div className='p-3 text-red-400 text-sm font-semibold'>2024- Present</div>
+                  <div className='p-3 text-red-400 text-sm font-semibold'>Aug 2023-October 2023</div>
                   {/* JOB COMPANY */}
-                  <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Apple</div>
+                  <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Technocracy Software Private Limited</div>
+                </div>
+                {/* CENTER */}
+                <div className='w-1/6 flex justify-center'>
+                  {/* LINE */}
+                  <div className='h-100 w-1 bg-gray-600 rounded relative'>
+                    {/* CIRCLE */}
+                    <div className='absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2'></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className='w-1/3'></div>
+              </div>
+              {/* EXPERIENCE LIST ITEM 4*/}
+              <div className='flex justify-between h-50 -mb-12' >
+                {/* LEFT */}
+                <div className='w-1/3'></div>
+                {/* CENTER */}
+                <div className='w-1/6 flex justify-center'>
+                  {/* LINE */}
+                  <div className='h-100 w-1 bg-gray-600 rounded relative'>
+                    {/* CIRCLE */}
+                    <div className='absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2'></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className='w-1/3'>
+                  {/* JOB TITLE */}
+                  <div className='bg-white p-3 font-semibold rounded-b-lg rounded-e-lg'>Full Stack Web Developer</div>
+                  {/* JOB DESC */}
+                  <div className='p-3 text-sm italic'> Contributed to the development and redesigning of college website.</div>
+                  {/* JOB DATE */}
+                  <div className='p-3 text-red-400 text-sm font-semibold'>Aug 2022 - Present</div>
+                  {/* JOB COMPANY */}
+                  <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Government Engineering College, Ajmer</div>
+                </div>
+              </div>
+              {/* EXPERIENCE LIST ITEM 5*/}
+              <div className='flex justify-between h-50 -mb-12' >
+                {/* LEFT */}
+                <div className='w-1/3'>
+                  {/* JOB TITLE */}
+                  <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Full Stack Web Developer</div>
+                  {/* JOB DESC */}
+                  <div className='p-3 text-sm italic'>Contributed to the development and redesigning of TPO website.</div>
+                  {/* JOB DATE */}
+                  <div className='p-3 text-red-400 text-sm font-semibold'>Aug 2022 - Present</div>
+                  {/* JOB COMPANY */}
+                  <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Government Engineering College, Ajmer</div>
                 </div>
                 {/* CENTER */}
                 <div className='w-1/6 flex justify-center'>

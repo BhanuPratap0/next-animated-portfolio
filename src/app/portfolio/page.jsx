@@ -63,14 +63,14 @@ const PortfolioPage = () => {
       transition={{ duration: 1 }}
     >
       <div className='h-[600vh] mb-40' ref={ref} >
-        <div className='w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-7xl text-center'>
+        <div className='w-[98vw] h-[calc(100vh-6rem)] flex items-center justify-center text-7xl text-center'>
           My Works
         </div>
         <div className='sticky top-0 flex h-screen gap-4 items-center overflow-hidden'>
           <motion.div style={{ x }} className='flex'>
-            <div className='h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300' />
+            <div className='h-screen w-[98vw] flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300' />
             {items.map((item) => (
-              <div className={`h-screen w-[75vw] flex items-center justify-center bg-gradient-to-r ${item.color}`} key={item.id}>
+              <div className={`h-screen w-[100vw] lg:w-[75vw]  flex items-center justify-center bg-gradient-to-r ${item.color}`} key={item.id}>
                 <div className='flex flex-col gap-8 text-white'>
                   <h1 className='text-xl font-bold md:text-4xl lg:text-4xl xl:text-6xl'>{item.title}</h1>
                   <div className='flex gap-2'>
@@ -81,8 +81,8 @@ const PortfolioPage = () => {
                       <Image src={item.img2} alt='' fill className='hidden lg:block' />
                     </div>
                   </div>
-                  <p className='w-80 md:w-96 lg:w-[500px] lg:text-lg xl:w-[600px]'>{item.desc}</p>
-                  <Link href={item.live} className='flex justify-end'>
+                  <p className='w-[300px] md:w-96 lg:w-[500px] lg:text-lg xl:w-[600px]'>{item.desc}</p>
+                  <Link href={item.live} className='flex  lg:justify-end'>
                     <button className='p-2 text-sm md:p-4 md:text-md lg:p-5 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded'>See Demo</button>
                     <Link href={item.git} className='flex justify-end'>
                       <button className='p-2 text-sm md:p-4 md:text-md lg:p-5 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded'>See Code</button>
@@ -95,7 +95,7 @@ const PortfolioPage = () => {
           </motion.div>
         </div>
       </div>
-      <div className='w-screen h-screen mt-50 flex flex-col gap-16 items-center justify-center text-center'>
+      <div className='w-[98vw] h-screen mt-50 flex flex-col gap-16 items-center justify-center text-center'>
         <h1 className='text-6xl'>Do you have a project?</h1>
         <div className='relative'>
           <motion.svg
