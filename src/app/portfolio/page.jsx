@@ -11,7 +11,7 @@ const items = [
     id: 1,
     color: "from-red-300 to-blue-300",
     title: "Social Media App MERN",
-    desc: "Full-Stack Notes-App Built Using MERN Stack. Easy To Use And Useful For Day-To-Day Note Making",
+    desc: "A full-stack social media app built using the MERN stack, featuring comprehensive functionality such as following, liking, messaging, posting, and other features.",
     img1: "/social_media_1.JPG",
     img2: "/social_media.JPG",
     live: "https://sociosync.netlify.app/",

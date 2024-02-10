@@ -86,8 +86,15 @@ const AboutPage = () => {
               className='flex gap-4 flex-wrap'
             >
               <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >JavaScript</div>
-              <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >React.ks</div>
+              <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >React.js</div>
               <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >Next.js</div>
+              <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >Express.js</div>
+              <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >php</div>
+              <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >MySQL</div>
+              <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >C++</div>
+              <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >HTML</div>
+              <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >CSS</div>
+              <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >Git</div>
               <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >Node.js</div>
               <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >Tailwing CSS</div>
               <div className='rounded p-2 text-sm cursor-pointer text-white bg-black hover:bg-white hover:text-black' >MongoDB</div>
@@ -136,18 +143,18 @@ const AboutPage = () => {
               {/* EXPERIENCE LIST ITEM*/}
               <div className='flex justify-between h-50 -mb-12' >
                 {/* LEFT */}
-                <div className='w-1/3'>
+                <div className='w-1/2'>
                   {/* JOB TITLE */}
                   <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Full Stack Web Developer and R & D Intern</div>
                   {/* JOB DESC */}
-                  <div className='p-3 text-sm italic'>Developed educational platform and researched autism for autistic children's benefit.</div>
+                  <div className='p-1 text-sm italic'>Developed educational platform and researched autism for autistic children's benefit.</div>
                   {/* JOB DATE */}
-                  <div className='p-3 text-red-400 text-sm font-semibold'>June 2023 - Aug 2023</div>
+                  <div className='p-1 text-red-400 text-sm font-semibold'>June 2023 - Aug 2023</div>
                   {/* JOB COMPANY */}
                   <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>MNIT Jaipur</div>
                 </div>
                 {/* CENTER */}
-                <div className='w-1/6 flex justify-center'>
+                <div className='w-1/6 h-[240px] flex justify-center'>
                   {/* LINE */}
                   <div className='h-100 w-1 bg-gray-600 rounded relative'>
                     {/* CIRCLE */}
@@ -155,28 +162,28 @@ const AboutPage = () => {
                   </div>
                 </div>
                 {/* RIGHT */}
-                <div className='w-1/3'></div>
+                <div className='w-1/2'></div>
               </div>
               {/* EXPERIENCE LIST ITEM 2*/}
               <div className='flex justify-between h-50 -mb-12' >
                 {/* LEFT */}
-                <div className='w-1/3'></div>
+                <div className='w-1/3 mt-5'></div>
                 {/* CENTER */}
-                <div className='w-1/6 flex justify-center'>
+                <div className='w-1/3 h-[240px] flex justify-center'>
                   {/* LINE */}
-                  <div className='h-100 w-1 bg-gray-600 rounded relative'>
+                  <div className='h=100 w-1 bg-gray-600 rounded relative'>
                     {/* CIRCLE */}
                     <div className='absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2'></div>
                   </div>
                 </div>
                 {/* RIGHT */}
-                <div className='w-1/3'>
+                <div className='w-1/3 mt-5'>
                   {/* JOB TITLE */}
                   <div className='bg-white p-3 font-semibold rounded-b-lg rounded-e-lg'>Hackathon: All India Forensic Hackathon</div>
                   {/* JOB DESC */}
-                  <div className='p-3 text-sm italic'>Finalist in top 15 teams for final round.</div>
+                  <div className='p-1 text-sm italic'>Finalist in top 15 teams for final round.</div>
                   {/* JOB DATE */}
-                  <div className='p-3 text-red-400 text-sm font-semibold'>Feb 2023</div>
+                  <div className='p-1 text-red-400 text-sm font-semibold'>Feb 2023</div>
                   {/* JOB COMPANY */}
                   <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>NFSU Gandhinagar</div>
                 </div>
@@ -188,14 +195,14 @@ const AboutPage = () => {
                   {/* JOB TITLE */}
                   <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Full Stack Web Developer</div>
                   {/* JOB DESC */}
-                  <div className='p-3 text-sm italic'>Trainee at company, gained valuable knowledge working on significant projects.</div>
+                  <div className='p-1 text-sm italic'>Trainee at company, gained valuable knowledge working on significant projects.</div>
                   {/* JOB DATE */}
-                  <div className='p-3 text-red-400 text-sm font-semibold'>Aug 2023-October 2023</div>
+                  <div className='p-1 text-red-400 text-sm font-semibold'>Aug 2023-October 2023</div>
                   {/* JOB COMPANY */}
                   <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Technocracy Software Private Limited</div>
                 </div>
                 {/* CENTER */}
-                <div className='w-1/6 flex justify-center'>
+                <div className='w-1/6 h-[240px] flex justify-center'>
                   {/* LINE */}
                   <div className='h-100 w-1 bg-gray-600 rounded relative'>
                     {/* CIRCLE */}
@@ -210,7 +217,7 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className='w-1/3'></div>
                 {/* CENTER */}
-                <div className='w-1/6 flex justify-center'>
+                <div className='w-1/6 h-[240px] flex justify-center'>
                   {/* LINE */}
                   <div className='h-100 w-1 bg-gray-600 rounded relative'>
                     {/* CIRCLE */}
@@ -222,9 +229,9 @@ const AboutPage = () => {
                   {/* JOB TITLE */}
                   <div className='bg-white p-3 font-semibold rounded-b-lg rounded-e-lg'>Full Stack Web Developer</div>
                   {/* JOB DESC */}
-                  <div className='p-3 text-sm italic'> Contributed to the development and redesigning of college website.</div>
+                  <div className='p-1 text-sm italic'> Contributed to the development and redesigning of college website.</div>
                   {/* JOB DATE */}
-                  <div className='p-3 text-red-400 text-sm font-semibold'>Aug 2022 - Present</div>
+                  <div className='p-1 text-red-400 text-sm font-semibold'>Aug 2022 - Present</div>
                   {/* JOB COMPANY */}
                   <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Government Engineering College, Ajmer</div>
                 </div>
@@ -236,9 +243,9 @@ const AboutPage = () => {
                   {/* JOB TITLE */}
                   <div className='bg-white p-3 font-semibold rounded-b-lg rounded-s-lg'>Full Stack Web Developer</div>
                   {/* JOB DESC */}
-                  <div className='p-3 text-sm italic'>Contributed to the development and redesigning of TPO website.</div>
+                  <div className='p-1 text-sm italic'>Contributed to the development and redesigning of TPO website.</div>
                   {/* JOB DATE */}
-                  <div className='p-3 text-red-400 text-sm font-semibold'>Aug 2022 - Present</div>
+                  <div className='p-1 text-red-400 text-sm font-semibold'>Aug 2022 - Present</div>
                   {/* JOB COMPANY */}
                   <div className='p-1 rounded bg-white text-sm font-semibold w-fit'>Government Engineering College, Ajmer</div>
                 </div>
